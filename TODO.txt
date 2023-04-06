@@ -1,0 +1,8 @@
+backend
+- create a python data simulator that creates data between range (x, y)                 --> data source
+- scattering of anomalies such that, P(anomaly) = 0.001                                 --> anomaly generation
+- data analytics on anomalies: mean, standard-dev, z-score, t-score, SR-CNN, MST-GAT    --> realtime analytics
+
+frontend
+- plot data from the simulator
+- 

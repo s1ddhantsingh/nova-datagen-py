@@ -1,0 +1,44 @@
+{
+    "generate_datastreams_for": [
+      "electricity",
+      "sound",
+      "output_production",
+      "spindle_load",
+      "spindle_rotational_acceleration"
+    ],
+    "electricity": {
+      "type":"watts",
+      "abbrev":"W",
+      "min":1000,
+      "max":1200,
+      "step":1
+    },
+    "sound": {
+      "type":"decibals",
+      "abbrev":"db",
+      "min":1000,
+      "max":1200,
+      "step":1
+    },
+    "output_production": {
+      "type":"count",
+      "abbrev":"c",
+      "min":1,
+      "max":3,
+      "step":10
+    },
+    "spindle_load": {
+      "type":"newtons",
+      "abbrev":"N",
+      "min":1000,
+      "max":1200,
+      "step":1
+    },
+    "spindle_rotational_acceleration": {
+      "type":"radians/second/second",
+      "abbrev":"α",
+      "min":500,
+      "max":700,
+      "step":1
+    }
+}
